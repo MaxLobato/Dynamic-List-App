@@ -10,7 +10,7 @@ function add() {
     added.appendChild(spann);
     spann.textContent = document.getElementById('new').value;
     added.appendChild(deletbutton);
-    deletbutton.textContent = "Delete this.";
+    deletbutton.textContent = "Delete.";
 
 
     deletbutton.addEventListener('click', () => {
